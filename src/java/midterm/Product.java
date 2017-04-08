@@ -3,7 +3,7 @@ package midterm;
 /**
  * The Product Model Class
  *
- * @author <ENTER YOUR NAME HERE>
+ * @author Roja JAyashree KArne
  */
 public class Product {
 
@@ -16,6 +16,16 @@ public class Product {
      *
      * @return the Product ID
      */
+    Product(int id, String name, int vendorId) {
+        this.productId = id;
+        this.name = name;
+        this.vendorId = vendorId;
+    }
+
+    Product() {
+
+    }
+
     public int getProductId() {
         return productId;
     }

@@ -13,7 +13,7 @@ import java.util.logging.Logger;
  */
 public class DBUtils {
 
-    private final static String studentNumber = "";
+    private final static String studentNumber = "c0689497";
 
     /**
      * Utility method used to create a Database Connection
